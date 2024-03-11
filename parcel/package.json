@@ -1,0 +1,21 @@
+{
+  "name": "CueSync with parcel",
+  "description": "Include CueSync's source Sass and JavaScript with Parcel.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "cuesync/cuesync-examples",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve src/index.html assets/transcripts/you.vtt --public-url / --dist-dir dist",
+    "build": "parcel build src/index.html assets/transcripts/you.vtt --public-url / --dist-dir dist",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@cuesync/cuesync": "^1.0.0-alpha1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-raw": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}
