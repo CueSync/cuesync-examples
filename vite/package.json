@@ -1,0 +1,20 @@
+{
+  "name": "CueSync with Vite",
+  "description": "Include CueSync with Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "cuesync/cuesync-examples",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "npm run build"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1",
+    "vite": "^4.5.2"
+  },
+  "dependencies": {
+    "@cuesync/cuesync": "^1.0.0-alpha1"
+  }
+}
