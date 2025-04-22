@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CueSync with Webpack</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <h1>CueSync + Webpack</h1>
+    <a href="https://github.com/cuesync/cuesync-examples/tree/main/webpack/" target="_blank" rel="noopener">View on GitHub</a>
+    <br>
+
+    <!-- Video -->
+    <video id="natGeoVideo" controls style="width: 100%; max-width: 500px;">
+      <source src="/assets/videos/natgeo.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+
+    <!-- Transcript -->
+    <cue-sync transcript-path="/assets/transcripts/natgeo.vtt, /assets/transcripts/natgeo_hindi.vtt"
+              media="#natGeoVideo"
+              style="height: 400px; max-width: 500px;"></cue-sync>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

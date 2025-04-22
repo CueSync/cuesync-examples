@@ -1,0 +1,33 @@
+{
+  "name": "sass-js-esm",
+  "description": "CueSync sass-js-esm example",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "cuesync/cuesync-examples",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run css",
+    "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules scss/:css/",
+    "css-lint": "stylelint scss/",
+    "css-prefix": "postcss --replace css/styles.css --use autoprefixer --map",
+    "css": "npm-run-all css-compile css-prefix",
+    "server": "sirv --dev --no-clear --port 3000",
+    "start": "npm-run-all --parallel watch server",
+    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "test": "npm-run-all css-lint css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.71.1",
+    "sirv-cli": "^2.0.2",
+    "stylelint": "^15.11.0",
+    "stylelint-config-twbs-bootstrap": "^9.0.1"
+  },
+  "dependencies": {
+    "@cuesync/cuesync": "^2.0.0-alpha1"
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CueSync with Parcel</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <h1>CueSync + Parcel</h1>
+    <a href="https://github.com/cuesync/cuesync-examples/tree/main/parcel/" target="_blank" rel="noopener">View on GitHub</a>
+    <br>
+
+    <!-- Video -->
+    <video id="natGeoVideo" controls style="width: 100%; max-width: 500px;">
+      <source src="/assets/videos/natgeo.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+
+    <!-- Transcript -->
+    <cue-sync transcript-path="/assets/transcripts/natgeo.vtt, /assets/transcripts/natgeo_hindi.vtt"
+              media="#natGeoVideo"
+              style="height: 400px; max-width: 500px;"></cue-sync>
+  </body>
+</html>
