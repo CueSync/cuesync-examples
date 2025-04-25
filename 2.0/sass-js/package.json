@@ -28,6 +28,6 @@
     "stylelint-config-twbs-bootstrap": "^9.0.1"
   },
   "dependencies": {
-    "@cuesync/cuesync": "^2.0.0-alpha1"
+    "@cuesync/cuesync": "^2.0.0-alpha3"
   }
 }

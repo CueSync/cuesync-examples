@@ -20,3 +20,7 @@
 - [Webpack](/2.0/webpack/): Import and bundle Sass and JS with Webpack
 - [Vite](/2.0/vite/): Sass, JS via Vite
 - [Parcel](/2.0/parcel/) - Sass, JS via Parcel
+- [React + Vite](/2.0/react-vite/)
+- [Next.js](/2.0/react-next/)
+- [Vue + Vite](/2.0/vue-vite/)
+- [Angular](/2.0/cuesync-angular/)
