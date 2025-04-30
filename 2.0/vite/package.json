@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "sass": "^1.87.0",
-    "vite": "^4.5.13"
+    "vite": "^4.5.14"
   },
   "dependencies": {
-    "@cuesync/cuesync": "^2.0.0-alpha3"
+    "@cuesync/cuesync": "^2.0.0"
   }
 }

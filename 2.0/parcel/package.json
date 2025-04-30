@@ -11,7 +11,7 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "@cuesync/cuesync": "^2.0.0-alpha3"
+    "@cuesync/cuesync": "^2.0.0"
   },
   "devDependencies": {
     "@parcel/transformer-raw": "^2.12.0",

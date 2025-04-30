@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@cuesync/cuesync": "^2.0.0-alpha3",
+    "@cuesync/cuesync": "^2.0.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
-    "vite": "^6.2.4",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "vite": "^6.3.4",
+    "vite-plugin-vue-devtools": "^7.7.6"
   }
 }
