@@ -4,23 +4,22 @@
   </a>
 </p>
 
-<h3 align="center">CueSync Examples</h3>
+<h3 align="center">Functional Examples of <a href="https://cuesync.github.io/">CueSync</a> in Popular Frameworks and Build Tools</h3>
 
-<p align="center">
-  Functional examples of using CueSync in common JS frameworks like Webpack, Parcel, Vite, and more!
-  <br>
-  <a href="https://cuesync.github.io/"><strong>Explore CueSync docs »</strong></a>
-</p>
+<p align="center">This repository contains working examples of using 
+<a href="https://cuesync.github.io"><strong>CueSync</strong></a>
+in real-world setups with popular frameworks and build tools.</p>
 
-## Directory
+#### Frameworks & Build Tools
+- [React + Vite](/2.0/react-vite/) — Integration with React using Vite (ESM, auto-injected styles)
+- [Next.js](/2.0/react-next/) — Use CueSync in a Next.js app (with dynamic import & SSR disabled)
+- [Vue + Vite](/2.0/vue-vite/) — Vue 3 + Vite example using native `<cue-sync>` Web Component
+- [Angular (Standalone)](/2.0/cuesync-angular/) — Angular 15+ example using Web Components
+- [Webpack](/2.0/webpack/)  — Import and bundle CueSync JS using Webpack
+- [Parcel](/2.0/parcel/) — Load CueSync JS with Parcel
+- [Vite](/2.0/vite/) — Vanilla JS + Vite using `<cue-sync>`
 
-- [Starter](/2.0/starter/): Use CDN to load CSS and JS
-- [Sass & JS](/2.0/sass-js/) — Import Sass, Autoprefixer, Stylelint, and JS via npm
-- [Sass & ESM JS](/2.0/sass-js-esm/) — Import Sass, Autoprefixer, and Stylelint via npm, and then load our ESM JS with a shim
-- [Webpack](/2.0/webpack/): Import and bundle Sass and JS with Webpack
-- [Vite](/2.0/vite/): Sass, JS via Vite
-- [Parcel](/2.0/parcel/) - Sass, JS via Parcel
-- [React + Vite](/2.0/react-vite/)
-- [Next.js](/2.0/react-next/)
-- [Vue + Vite](/2.0/vue-vite/)
-- [Angular](/2.0/cuesync-angular/)
+#### Raw Usage & CDN
+- [Starter](/2.0/starter/) — Load CueSync via CDN (ideal for quick HTML prototypes)
+- [Sass & JS](/2.0/sass-js/) — Manually import CueSync JS
+- [Sass & ESM JS](/2.0/sass-js-esm/) — Use ESM version of CueSync JS with shim
