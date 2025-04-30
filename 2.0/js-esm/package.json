@@ -1,6 +1,6 @@
 {
   "name": "sass-js-esm",
-  "description": "CueSync sass-js-esm example",
+  "description": "CueSync js-esm example",
   "version": "0.0.0",
   "private": true,
   "repository": "cuesync/cuesync-examples",

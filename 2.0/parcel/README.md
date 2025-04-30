@@ -1,6 +1,6 @@
 # CueSync with Parcel
 
-Include [CueSync](https://cuesync.github.io)'s source Sass and JavaScript with [Parcel](https://parceljs.org).
+Include [CueSync](https://cuesync.github.io)'s JavaScript with [Parcel](https://parceljs.org).
 
 ## How to use
 

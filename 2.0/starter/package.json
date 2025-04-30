@@ -1,6 +1,6 @@
 {
   "name": "CueSync Starter",
-  "description": "Include CueSync CSS and JS via CDN.",
+  "description": "Include CueSync JS via CDN.",
   "version": "0.0.0",
   "private": true,
   "repository": "cuesync/cuesync-examples",

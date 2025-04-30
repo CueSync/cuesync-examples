@@ -21,5 +21,5 @@ in real-world setups with popular frameworks and build tools.</p>
 
 #### Raw Usage & CDN
 - [Starter](/2.0/starter/) — Load CueSync via CDN (ideal for quick HTML prototypes)
-- [Sass & JS](/2.0/sass-js/) — Manually import CueSync JS
-- [Sass & ESM JS](/2.0/sass-js-esm/) — Use ESM version of CueSync JS with shim
+- [JS](/2.0/js/) — Manually import CueSync JS
+- [ESM JS](/2.0/js-esm/) — Use ESM version of CueSync JS with shim

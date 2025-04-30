@@ -1,6 +1,6 @@
 {
-  "name": "sass-js",
-  "description": "CueSync sass-js example",
+  "name": "js",
+  "description": "CueSync js example",
   "version": "0.0.0",
   "private": true,
   "repository": "cuesync/cuesync-examples",

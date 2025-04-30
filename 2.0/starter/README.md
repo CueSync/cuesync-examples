@@ -1,6 +1,6 @@
 # CueSync starter
 
-Include [CueSync](https://cuesync.github.io) CSS and JS via CDN.
+Include [CueSync](https://cuesync.github.io) JS via CDN.
 
 ## How to use
 

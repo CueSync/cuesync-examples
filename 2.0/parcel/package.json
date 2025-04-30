@@ -1,6 +1,6 @@
 {
   "name": "CueSync with parcel",
-  "description": "Include CueSync's source Sass and JavaScript with Parcel.",
+  "description": "Include CueSync's JavaScript with Parcel.",
   "version": "0.0.0",
   "private": true,
   "repository": "cuesync/cuesync-examples",
